@@ -1,0 +1,17 @@
+#Nodelo de regresion logaritmico que pretende enteder el comportamiento de zeta en base a n
+
+ coef(ajuste2)
+(Intercept)      log(n) 
+ 0.44335938 -0.01681139 
+> coef(ajuste3)
+(Intercept)      log(n) 
+ 0.54191638 -0.01856469 
+> coef(ajuste4)
+(Intercept)      log(n) 
+ 0.67702947 -0.02332709 
+> coef(ajuste5)
+(Intercept)      log(n) 
+ 0.82712781 -0.02960516 
+> coef(ajuste6)
+(Intercept)      log(n) 
+ 0.88660137 -0.02925327 

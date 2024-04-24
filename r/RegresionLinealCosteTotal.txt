@@ -1,0 +1,35 @@
+Exp1  1 <= n <= 10k
+#funcion lineal que corresponde al crecimiento del coste
+> coef(ajuste2)
+(Intercept)    log10(n) 
+  0.8713933   0.1430216 
+> coef(ajuste3)
+(Intercept)    log10(n) 
+  1.0186964   0.1718266 
+> coef(ajuste4)
+(Intercept)    log10(n) 
+  1.1005348   0.2264079 
+> coef(ajuste5)
+(Intercept)    log10(n) 
+  1.1193693   0.2967906 
+> coef(ajuste6)
+(Intercept)    log10(n) 
+  1.0942380   0.3747442 
+
+Exp2  10k <= n <= 1M
+> #funcion lineal que corresponde al crecimiento del coste
+> coef(ajuste2)
+(Intercept)    log10(n) 
+ 1.22675506  0.06091728 
+> coef(ajuste3)
+(Intercept)    log10(n) 
+  1.3165220   0.0914836 
+> coef(ajuste4)
+(Intercept)    log10(n) 
+  1.5615706   0.1067279 
+> coef(ajuste5)
+(Intercept)    log10(n) 
+  1.8938388   0.1100216 
+> coef(ajuste6)
+(Intercept)    log10(n) 
+  1.8703726   0.1756911 
